@@ -1,0 +1,9 @@
+# raw source exports stay local; the compiled warehouse/ is committed
+download/
+
+# Excel lock files, Python caches
+~$*
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+warehouse/ingest_log.csv
